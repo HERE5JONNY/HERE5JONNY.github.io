@@ -1,0 +1,39 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: url(https://wallpapercave.com/wp/8l83IuI.jpg);
+    color:#d6f8f8;
+    width: 99%;
+}
+.head0 {
+    font-size: 50px;
+    text-align: center;
+}
+.pwebsite {
+    font-size: 35px;
+    text-align: center;
+}
+.head1 {
+    font-size: 35px;
+    text-align: left;
+}
+.head2, .head3 {
+    text-align: right;
+    
+}
+.experience, .aboutme {
+    font-size: 20px;
+}
+.hobbies {
+    font-size: 20px;
+    text-align: right;
+}
+.socials {
+    font-size: 20px;
+    text-align: right;
+}
+img {
+    width: 35%;
+}
+a {
+    color:aqua;
+}
