@@ -1,0 +1,50 @@
+html, body {
+    height:100%;
+    width:100%;
+    padding: 0;
+    margin: 0;
+    background-image: url(https://pbs.twimg.com/media/GIb_TqPWoAA3WD5?format=jpg&name=large);
+    background-position: bottom center;
+    background-repeat: no-repeat;
+}
+body {
+    font-family: Tahoma;
+    color: #FFFFFF;
+    overflow: hidden;
+}
+.header {
+    padding: 20px;
+    position: relative;
+    top: -1rem;
+    font-size: 3rem;
+    text-align: center;
+}
+.about {
+    padding: 20px 30px;
+    position: relative;
+    top: -3.5rem;
+    left: 5px;
+}
+.relevantexp, .experience, .education, .hobbies {
+    margin-left: 1%;
+    text-align: left;
+}
+.relevantexp {
+    font-size: 0.8rem;
+    font-style: italic;
+}
+.experience {
+    font-size: 1rem;
+}
+.head2 {
+    font-size: 1.3rem;
+    color: #9390e8;
+    margin-left: 1em auto;
+}
+.education {
+    font-size: 1rem;
+
+}
+.hobbies {
+    font-size: 1rem;
+}
