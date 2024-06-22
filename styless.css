@@ -7,58 +7,85 @@ html, body {
     background-position: bottom center;
     background-repeat: no-repeat;
 }
-header{
-    padding: 0;
-    background-color: #00031f;
-    border-bottom: 4px solid #0a0063;
-}
-.img1 {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    border-radius: 10px;
-}
-.img2 {
-    display: flex;
-    margin-right: 50px;
-    margin-left: auto;
-    width: 50%;
-    height: auto;
-    border-radius: 10px 20px 30px 20px;
-}
 body {
     font-family: Tahoma;
     color: #FFFFFF;
     overflow: hidden;
 }
+.img1 {
+    display: flex;
+    float: right;
+    margin-right: 2rem;
+    width: 100px;
+    height: 100px;
+    border-radius: 200px 10px;
+    rotate: 45deg;
+}
+.img2 {
+    display: flex;
+    float: right;
+    margin-right: 50px;
+    margin-left: auto;
+    width: 15%;
+    height: auto;
+    border-radius: 100%;
+}
+.img3 {
+    display: flex;
+    float: right;
+    margin-right: 3%;
+    margin-left: auto;
+    width: 15%;
+    height: auto;
+    border-radius: 15px;
+}
+.alias {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #001b3b;
+}
+.intro {
+    font-size: 1.8rem;
+    text-align: center;
+    position: relative;
+    top: -3rem;
+    bottom: auto;
+    clear: both;
+}
 .name {
-    font-size: 30px;
     font-weight: 800;
     text-align: center;
 }
 .personalwebsite {
-    font-size: 20px;
-    text-align: center;
+    font-style: italic;
+}
+.about {
+    padding: 20px 30px;
+    position: relative;
+    top: -3.5rem;
+    left: 0;
 }
 .relevantexp, .experience, .education, .hobbies {
-    margin-left: 20px;
+    margin-left: 1%;
+    text-align: left;
 }
 .relevantexp {
-    font-size: 13px;
+    font-size: 0.8rem;
+    font-style: italic;
 }
 .experience {
-    font-size: 15px;
+    font-size: 1rem;
 }
 .head2 {
-    font-size: 20px;
+    font-size: 1.3rem;
     color: #9390e8;
-    margin-left: 20px;
+    margin-left: 1em auto;
 }
 .education {
-    font-size: 15px;
+    font-size: 1rem;
 
 }
 .hobbies {
-    font-size: 15px;
+    font-size: 1rem;
 }
+
